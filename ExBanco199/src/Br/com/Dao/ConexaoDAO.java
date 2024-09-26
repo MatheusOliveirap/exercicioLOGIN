@@ -1,12 +1,9 @@
-
 package Br.com.Dao;
 
 import java.sql.*;
-import java.sql.Connection;
 import javax.swing.JOptionPane;
 
-public class ConexaoDAO {
- 
+public class ConexaoDao {
     public static Connection Conector(){
         
        java.sql.Connection conexao = null;      
